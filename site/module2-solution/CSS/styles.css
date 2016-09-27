@@ -1,6 +1,6 @@
 *{
 	box-sizing: border-box;
-	margin: auto;
+	margin: 1259;
 }
 h1{
 	color: blue;
@@ -13,6 +13,7 @@ h2{
 	margin-bottom: 10px;
 	box-sizing: 50px;
 	margin: 5px;
+    
 }
 p{
 	color: darkred;
@@ -20,6 +21,22 @@ p{
 	background-color: darkgrey;
 	margin: 5px;
 }
-#box {
-	background-color: grey;
+.box1 {
+    box-sizing:border-box;
+    width: 400px;
+}
+.box2 {
+    box-sizing:border-box;
+    width: 400px;
+    height: 133px;
+    position: absolute;
+    top: 120px;
+    left: 420px;
+}
+.box3 {
+    box-sizing:border-box;
+    width: 400px;
+    position: absolute;
+    top: 120px;
+    left: 840px;
 }
